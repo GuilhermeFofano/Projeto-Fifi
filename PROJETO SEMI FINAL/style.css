@@ -1,0 +1,83 @@
+/* Reset de Estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do Menu --------------------------------------------------------*/
+.menu {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display:inline-flex;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: 0.3s;
+}
+.menu li a:hover {
+    background-color: #51cb80;
+}
+/*fim da do menu -------------------------------------------------------*/
+footer{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display:inline-flex;
+    margin-right: 20px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: 0.3s;
+}
+footer li a:hover {
+    background-color: #51cb80;
+}
+
+.imgFooter1{
+    height: 70px;
+    width: 90px;
+
+}
+.imgFooter2{
+    margin-bottom: 12px;
+    height: 45px;
+    width: 60px;
+
+}
+.imgFooter3{
+    height: 80px;
+    width: 100px;
+}
